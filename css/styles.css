@@ -542,6 +542,7 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: var(--secondary-color);
+    color: var(--white);
 }
 
 .contact-info {
@@ -646,6 +647,7 @@ button[type="submit"]:hover {
 
 .view-recipe:hover {
     background-color: var(--secondary-color);
+    color: var(--white);
 }
 
 /* Regions Index */
@@ -702,6 +704,7 @@ button[type="submit"]:hover {
 
 .explore-button:hover {
     background-color: var(--secondary-color);
+    color: var(--white);
 }
 
 /* Footer */
