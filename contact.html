@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tastes of Africa</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="regions.html">Culinary Regions</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <h1>Contact Us</h1>
+        
+        <section class="contact-intro">
+            <p>We'd love to hear from you! Whether you have questions about our recipes, want to share your own African cooking experiences, or have suggestions for new content, please reach out using the form below.</p>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <input type="text" id="country" name="country" list="country-suggestions" placeholder="Select or type your country">
+                    <datalist id="country-suggestions">
+                        <option value="Nigeria">
+                        <option value="Ghana">
+                        <option value="South Africa">
+                        <option value="Kenya">
+                        <option value="Ethiopia">
+                        <option value="Morocco">
+                        <option value="Egypt">
+                        <option value="Tanzania">
+                        <option value="Uganda">
+                        <option value="Algeria">
+                        <option value="Tunisia">
+                        <option value="Senegal">
+                        <option value="Rwanda">
+                        <option value="Cameroon">
+                        <option value="Côte d'Ivoire">
+                        <option value="United States">
+                        <option value="United Kingdom">
+                        <option value="Canada">
+                        <option value="France">
+                        <option value="Germany">
+                        <option value="Other">
+                    </datalist>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject">
+                        <option value="">-- Select a subject --</option>
+                        <option value="recipe-question">Recipe Question</option>
+                        <option value="recipe-submission">Submit a Recipe</option>
+                        <option value="feedback">General Feedback</option>
+                        <option value="partnership">Partnership Inquiry</option>
+                        <option value="technical">Technical Issue</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="8" required placeholder="Tell us what's on your mind..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="contact-info">
+            <h2>Other Ways to Connect</h2>
+            <div class="contact-methods">
+                <div class="method">
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@tastesofafrica.com">info@tastesofafrica.com</a></p>
+                </div>
+                
+                <div class="method">
+                    <h3>Social Media</h3>
+                    <p>Follow us on Instagram, Facebook, and Twitter @TastesOfAfrica</p>
+                </div>
+                
+                <div class="method">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for weekly recipes and culinary stories</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <details>
+                <summary>How can I submit my own recipe?</summary>
+                <p>We love receiving recipes from our community! Use the contact form above and select "Submit a Recipe" as the subject. Please include the dish name, ingredients, instructions, and any cultural background information.</p>
+            </details>
+
+            <details>
+                <summary>Can I use your recipes for my restaurant or food business?</summary>
+                <p>Our recipes are for personal use. For commercial inquiries, please contact us using the form above with "Partnership Inquiry" as the subject.</p>
+            </details>
+
+            <details>
+                <summary>I can't find an ingredient listed in a recipe. What should I do?</summary>
+                <p>Many African ingredients have substitutes! Contact us with the specific ingredient, and we'll suggest alternatives. We also provide substitution guides in many of our recipes.</p>
+            </details>
+
+            <details>
+                <summary>Do you offer cooking classes or workshops?</summary>
+                <p>We're exploring virtual cooking classes! Sign up for our newsletter to be notified when we launch this program.</p>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <div class="newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <form>
+                <label for="newsletter-email">Email:</label>
+                <input type="email" id="newsletter-email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <p>&copy; 2025 Tastes of Africa. All rights reserved.</p>
+    </footer>
+</body>
+</html>
